@@ -1,223 +1,225 @@
-body{
-    overflow-x: hidden;
-    height: 780vh;
+body {
+  overflow-x: hidden;
+  height: 780vh;
 }
-.row1{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+.row1 {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
 }
-.nav{
-    height: 10px;
-    line-height: 5px;
+.nav {
+  height: 10px;
+  line-height: 5px;
 }
-.row ul li a{
-    font-size: larger;
-    padding-right: 30px;
-    color: rgb(7, 8, 8);
-    font-weight: 500;
-    position: relative;
-    bottom: 5px;
+.row ul li a {
+  font-size: larger;
+  padding-right: 30px;
+  color: rgb(7, 8, 8);
+  font-weight: 500;
+  position: relative;
+  bottom: 5px;
 }
-.navbar{
-    padding-right: 28px !important;
+.navbar {
+  padding-right: 28px !important;
 }
 .navbar h2 {
-    color: rgb(9, 9, 9);
-    position: relative;
-    right: 450px;
-    bottom: 1px;
+  color: rgb(9, 9, 9);
+  position: relative;
+  right: 450px;
+  bottom: 1px;
 }
-.row ul li button{
-position: relative;
-bottom: 13px;
+.row ul li button {
+  position: relative;
+  bottom: 13px;
 }
-.row2-img{
-    height: 750px;
-    margin-bottom: 100px;
+.row2-img {
+  height: 750px;
+  margin-bottom: 100px;
 }
-.row3{
-    height: 450px;
-    background-image: url(https://cdn.pixabay.com/photo/2016/03/15/18/12/forest-1258845_640.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
+.row3 {
+  height: 450px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/15/18/12/forest-1258845_640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
-.row3-contents > h4{
-    height: 300px;
-    border: 1px ;
-    justify-content: center !important;
-    text-align: center;
-    color: white;
-    line-height: 400px;
+.row3-contents > h4 {
+  height: 300px;
+  border: 1px;
+  justify-content: center !important;
+  text-align: center;
+  color: white;
+  line-height: 400px;
 }
-.row3-contents > p{
-    color: rgb(252, 252, 252);
-    text-align: center;
-    position: relative;
-    bottom: 50px;
+.row3-contents > p {
+  color: rgb(252, 252, 252);
+  text-align: center;
+  position: relative;
+  bottom: 50px;
 }
-.row3-contents > button{
-    position: relative;
-    left: 700px;
-    width: 100px;
-    bottom: 40px;
+.row3-contents > button {
+  position: relative;
+  left: 700px;
+  width: 100px;
+  bottom: 40px;
 }
-.row4{
-    height: 100vmin;
-    padding: 30px;
-    margin-bottom: 250px !important;
+.row4 {
+  height: 100vmin;
+  padding: 30px;
+  margin-bottom: 250px !important;
 }
-.row4-cards > .card{
-    height: 400px !important;
-    width: 550px !important; 
+.row4-cards > .card {
+  height: 400px !important;
+  width: 500px !important;
 }
-.card-text{
-    text-align: center;
-    color: rgb(6, 6, 6);
+.card-text {
+  text-align: center;
+  color: rgb(6, 6, 6);
 }
-.row4-img4{
-    height: 230px;
-    width: 400px !important;
-    position: relative;
-    left: 80px;
+.row4-img4 {
+  height: 230px;
+  width: 400px !important;
+  position: relative;
+  left: 80px;
 }
-.row5{
-    height: 400px;
-    background-image:url(https://cdn.pixabay.com/photo/2016/05/06/09/49/road-1375530_640.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 80px;
-    margin-bottom: 60px;
-    width: 1500px !important;
+.row5 {
+  height: 400px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/06/09/49/road-1375530_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  margin-bottom: 60px;
+  width: 1400px !important;
 }
-.row5-contents > h4 ,h6 ,p{
-    text-align: center;
-    color: white; 
+.row5-contents > h4,
+h6,
+p {
+  text-align: center;
+  color: white;
 }
-.row5-contents > button{
-    position: relative;
-    left: 700px;
+.row5-contents > button {
+  position: relative;
+  left: 650px;
 }
-.row6{
-    height: 400px;
-    padding-top: 50px;
-    margin-bottom:50px ;
+.row6 {
+  height: 400px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
-.row6-box{
-    margin:10px;
-    height: 350px;
+.row6-box {
+  margin: 10px;
+  height: 350px;
 }
-.row6-box >p,h1 {
-    color: black;
-    text-align: center !important;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
+.row6-box > p,
+h1 {
+  color: black;
+  text-align: center !important;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
 }
-.row6-box > button{
-    position: relative;
-    top: 10px;
-    left: 130px;
-    border-radius: 5px;
-    width: 130px;
+.row6-box > button {
+  position: relative;
+  top: 10px;
+  left: 130px;
+  border-radius: 5px;
+  width: 130px;
 }
-.row6-box >i{
-    font-size: 40px;
-    position: relative;
-    top: 20px;
+.row6-box > i {
+  font-size: 40px;
+  position: relative;
+  top: 20px;
 }
-.row7{
-    height: 550px;
+.row7 {
+  height: 550px;
 }
-.row7 >.card7{
-    margin: 25px;
-    padding-left: 130px;
+.row7 > .card7 {
+  margin: 25px;
+  padding-left: 130px;
 }
-.card7 > img{
-    width: 250px !important;
-    height: 250px;
+.card7 > img {
+  width: 250px !important;
+  height: 250px;
 }
-.card7>.card-body{
-    width: 240px !important;
+.card7 > .card-body {
+  width: 240px !important;
 }
- .card-body> p{
-    color: rgb(12, 12, 12);
+.card-body > p {
+  color: rgb(12, 12, 12);
 }
-.row7 >h2{
-    text-align: center;
+.row7 > h2 {
+  text-align: center;
 }
-.row8{
-    height: 250px;
-    display: flex;
-    align-content:center;
-    padding-left: 250px;
-    padding-right: 180px;
-    
+.row8 {
+  height: 250px;
+  display: flex;
+  align-content: center;
+  padding-left: 250px;
+  padding-right: 180px;
 }
-.row8 .control{
-    width: 200px;
-    margin: 20px;
-    border-radius: 5px;
-    height: 35px;
+.row8 .control {
+  width: 200px;
+  margin: 20px;
+  border-radius: 5px;
+  height: 35px;
 }
-.row8 .row8-btn{
-    width: 80px;
-    height: 35px;
-    position: relative;
-    padding-left: 1px;
+.row8 .row8-btn {
+  width: 80px;
+  height: 35px;
+  position: relative;
+  padding-left: 1px;
 }
-.row8 .form-content{
-    margin-top: 30px;
+.row8 .form-content {
+  margin-top: 30px;
 }
-.row8 .row8-form h6{
-    color: black;
-    text-align: center;
-    padding-right: 380px;
+.row8 .row8-form h6 {
+  color: black;
+  text-align: center;
+  padding-right: 380px;
 }
-.row8 p{
-    color: black;
+.row8 p {
+  color: black;
 }
-.row9{
-    height: 750px !important;
-    padding: 100px;
-    margin-bottom: 40px;
+.row9 {
+  height: 750px !important;
+  padding: 100px;
+  margin-bottom: 40px;
 }
-.row9 > h2{
-    font-weight: bolder;
-    text-align: center;
-    word-spacing: 8px;
+.row9 > h2 {
+  font-weight: bolder;
+  text-align: center;
+  word-spacing: 8px;
 }
-.row9 > p{
-    color: black;
-    position: relative;
+.row9 > p {
+  color: black;
+  position: relative;
 }
-.row9 .row9-cards{
-    width: 200px;
-    height: 300px;
+.row9 .row9-cards {
+  width: 200px;
+  height: 300px;
 }
-.row9 .row9-img{
-    height: 350px;
+.row9 .row9-img {
+  height: 350px;
 }
-.row9 .card-body >h6{
-    color: black;
+.row9 .card-body > h6 {
+  color: black;
 }
-.row9 i{
-    font-size: 25px;
-    position: relative;
-    left: 70px;
-    padding: 5px;
-    top: 10px;
+.row9 i {
+  font-size: 25px;
+  position: relative;
+  left: 70px;
+  padding: 5px;
+  top: 10px;
 }
-.row10{
-    height: 400px !important;
-    background-color: black;
+.row10 {
+  height: 400px !important;
+  background-color: black;
 }
-.row10 .row10-content{
-    color: beige;
-    padding: 50px;
-    line-height: 5px;
-    text-align: justify !important;
+.row10 .row10-content {
+  color: beige;
+  padding: 50px;
+  line-height: 5px;
+  text-align: justify !important;
 }
